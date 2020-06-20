@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route,
   Link
@@ -20,7 +20,7 @@ Modal.setAppElement('#root');
 export default function App() {
   return (
     <div id="app" className="app">
-      <Router>
+      <HashRouter baseName="/">
           <Navigation/>
           <div className="app__content">
               <Switch>
@@ -41,7 +41,7 @@ export default function App() {
                 </Route>
               </Switch>
             </div>
-        </Router>
+        </HashRouter>
     </div>
   );
 }

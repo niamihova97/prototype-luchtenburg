@@ -24,7 +24,7 @@ export function RoomReview(){
     chart.dataFields.name = "name";
     chart.dataFields.children = "children";
     chart.homeText = "Home";
-    chart.numberFormatter.numberFormat = "#.##"
+    chart.numberFormatter.numberFormat = "#,###.##"
     // enable navigation
     chart.navigationBar = new am4charts.NavigationBar();
     var level0 = chart.seriesTemplates.create("0");
