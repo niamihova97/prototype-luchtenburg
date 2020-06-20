@@ -1,0 +1,18 @@
+:root {
+    --very-big-font: 45px;
+    --big-font: 30px;
+    --standard-font: 25px;
+    --small-font: 20px;
+    --very-small-font: 15px;
+    --btn-active: #ffca33;
+    --btn-hover: #FFF2CF;
+    --txt-color: 	#404040;
+    --txt-color-light: #d3d3d3;
+    --white: #F5F5F5
+  }
+
+  @font-face {
+    font-family: 'font';
+    src: url('fonts/Roboto-Regular.ttf');
+  }
+ 

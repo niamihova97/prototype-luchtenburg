@@ -1,0 +1,46 @@
+.room-review {
+    display: flex;
+    flex-direction: column;
+}
+
+.room-review__title {
+    align-self: center;
+    font-size: var(--very-big-font);
+    margin-top: 25px;
+}
+
+.room-review__pov {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.room-review__pov-selector {
+    margin-right: 8px;
+}
+
+
+.time-frame-selector {
+    width: 100px;
+}
+
+.series-selector {
+    width: 200px;
+}
+
+.unit-selector {
+    width: 100px;
+}
+
+.room-review__pov-selector__option--is-selected {
+    background-color: var(--btn-active);
+}
+.room-review__pov-selector__option--is-focused {
+    background-color: var(--btn-focused);
+}
+.room-review-chart {
+    width: 1000px;
+    height: 500px;
+    align-self: center;
+}

@@ -1,0 +1,71 @@
+.my-forest {
+    float: 1;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    flex: 1;
+    background-image: url("../../images/game_background_1.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    width: 100%;
+}
+
+.my-forest__title {
+    font-size: var(--very-big-font);
+    align-self: center;
+    margin-top: 25px;
+    color: var(--white);
+}
+
+.my-forest__leaves-count {
+    display: flex;
+    font-size: var(--big-font);
+    align-self: center;
+    margin-top: 25px;
+    color: var(--white);
+}
+.my-forest__co2-count {
+    font-size: var(--big-font);
+    align-self: center;
+    margin-bottom: 25px;
+    margin-top: auto;
+    color: var(--white);
+}
+.my-forest__trees {
+    flex: 1;
+}
+.my-forest__co2-count__co2 {
+    font-size: var(--big-font);
+    align-self: center;
+    margin-top: 25px;
+    color: var(--white);
+}
+.my-forest__image {
+    width: 563px;
+    height: 309px;
+    margin-top: 25px;
+    background-image: url("../../images/myForest.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+.my-forest__leave {
+    width: 50px;
+    height: 1em;    
+    background-image: url("../../images/leave.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    align-self: center;
+    margin-left: 7px;
+    transform: rotate(-30deg);
+}
+.my-forest__tree {
+    background-image: url("../../images/littleTree.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}

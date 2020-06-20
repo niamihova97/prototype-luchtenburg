@@ -1,0 +1,46 @@
+.navigation {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.navigation__tab svg {
+    height: 25px;
+    width: 25px;
+    align-self: center;
+    margin-right: 5px;
+}
+
+.navigation__tab,
+.navigation__tab:visited {
+    text-decoration: none;
+    color: var(--txt-color);
+    fill: var(--txt-color);
+    flex: 1;
+    text-align: center;
+    align-self: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    display: flex;
+}
+
+.navigation__tab:hover {
+    color: var(--btn-hover);
+    fill: var(--btn-hover);
+}
+
+.navigation__tab--selected,
+.navigation__tab--selected:visited,
+.navigation__tab--selected:hover {
+    color: var(--btn-active);
+    fill: var(--btn-active);
+}
+
+.navigation__tab-text {
+    align-self: center;
+}

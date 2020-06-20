@@ -1,0 +1,199 @@
+:root {
+    --space-between: 30px;
+}
+.challenge {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+.challenge__image {
+    width: 100px;
+    height: 100px;
+    margin-right: var(--space-between);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.challenge__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.challenge__title {
+    display: flex;
+    flex-direction: row;
+
+}
+.challenge__name {
+    font-size: var(--standard-font);
+    line-height: var(--standard-font);;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.challenge__name-separator {
+    font-size: var(--standard-font);;
+    line-height: var(--standard-font);;
+    margin-left: 5px;
+}
+.challenge__description {
+    font-size: var(--very-small-font);
+    color: var(--txt-color-light);
+    display: flex
+}
+.challenge__progress-bar {
+    width: 500px;
+    height: 20px;
+}
+.challenge__leave-count { 
+    display: flex;
+    align-self: center;
+    margin-left: 5px;
+    margin-right: var(--space-between);
+    font-size: var(--small-font);
+    line-height: 25px;
+}
+.challenge__leave {
+    width: 30px;
+    height: 1em;    
+    background-image: url("../../../images/leave.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    align-self: center;
+    transform: rotate(-30deg);
+}
+
+.challenge-delete {
+    margin-left: auto;
+    align-self: center;
+    padding-top: 2px;
+    cursor: pointer;
+}
+.challenge-delete svg {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    fill: var(--txt-color);
+}
+
+.challenge__read-tips {
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+
+.challenge__progress-text {
+    color: var(--txt-color-light);
+    margin-left: 5px;
+    padding-bottom: 2px;
+    align-self: flex-end;
+}
+
+.challenge-leaves {
+    display: flex;
+    flex-wrap: wrap;
+}
+.challenge__progress-bar-placeholder {
+    width: 500px;
+    height: 20px;
+}
+
+.challenge__accept {
+    margin-left: auto;
+    text-decoration: underline;
+    align-self: center;
+    cursor: pointer;
+}
+
+
+.challenge-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.challenge-page__header {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    border-bottom: 1px solid var(--txt-color);
+    padding-left: 5px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.challenge-page__image {
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    align-self: flex-end;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.challenge-page__name {
+    font-size: var(--standard-font);
+    color: var(--white);
+    align-self: flex-end;
+}
+
+.challenge-page__content-title {
+    font-size: var(--small-font);
+    margin: 5px 0px;
+}
+
+.challenge-rules__rules {
+
+    font-size: var(--very-small-font);
+    margin: 15px 10px;
+    text-align: justify;
+}
+
+.challenge-rules__prize {
+
+    display: flex;
+    width: 250px;
+    font-size: var(--small-font);
+}
+
+.challenge-rules__leave-count {
+    margin-left: auto;
+    display: flex;
+}
+
+.challenge-page__back {
+    font-size: var(--small-font);
+
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.challenge-page__buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.challenge-page__accept {
+    font-size: var(--small-font);
+
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: var(--btn-hover);
+    cursor: pointer;
+}
+.challenge__page-content {
+    padding-left: 5px;
+}
+.challenge-tips__tip {
+
+    font-size: var(--very-small-font);
+    margin: 15px 10px;
+    text-align: justify;
+}
+.challenge-tips__tip-list {
+    display: flex;
+    flex-direction: column;
+}

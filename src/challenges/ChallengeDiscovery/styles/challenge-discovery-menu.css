@@ -1,0 +1,69 @@
+.challenge-discovery-menu-button {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.challenge-discovery-menu-button svg{
+    width: 25px;
+    height: 25px;
+    fill: var(--txt-color);
+}
+.challenge-discovery-menu-button--is-open svg {
+    fill: var(--btn-active);
+}
+.challenge-discovery-menu-button--is-open {
+    color: var(--btn-active);
+}
+.challenge-discover-menu {
+    align-self: flex-end;
+}
+.challenge-discovery__challenges {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.challenge-category-bt {
+    border-radius: 10%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 200px;
+
+}
+
+.challenge-category-bt--selected {
+    color: var(--btn-active);
+}
+
+.challenge-category-bt__text {
+    align-self: center;
+}
+.challenge-category-bt__image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+.challenge-category-bt__image--Daily {
+    background-image: url(../../../images/Daily.png);
+}
+.challenge-category-bt__image--Weekly {
+    background-image: url(../../../images/Weekly.png);
+}
+.challenge-category-bt__image--Yearly {
+    background-image: url(../../../images/Yearly.png);
+}
+.challenge-category-bt__image--Monthly {
+    background-image: url(../../../images/Monthly.png);
+}
+.challenge-category-bt__image--MyChallenges {
+    background-image: url(../../../images/MyChallenges.png);
+}
+.challenge-category-bt__image--Competitions {
+    background-image: url(../../../images/Competitions.png);
+}

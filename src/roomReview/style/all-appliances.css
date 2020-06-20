@@ -1,0 +1,33 @@
+.all-appliances {
+    display: flex;
+    width: 1000px;
+    align-self: center;
+    justify-self: flex-end;
+    padding-right: 30px;
+}
+
+.all-appliances-bt {
+    margin-left: auto;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.appliance-list {
+  display: flex;
+  flex-direction: column;
+  max-height: 450px;
+}
+
+.appliance-list__appliance {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--txt-color-light);
+  padding: 15px;
+}
+.all-appliances-bt svg {
+    fill: var(--txt-color);
+}
+.all-appliances-bt--open svg {
+    fill: var(--btn-active);
+}
