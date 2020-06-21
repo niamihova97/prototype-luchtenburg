@@ -14,6 +14,6 @@ export function Navigation() {
         <NavLink className="navigation__tab" activeClassName="navigation__tab--selected" to="/overview"><Maglass/><div className="navigation__tab-text">Overview</div></NavLink>
         <NavLink className="navigation__tab" activeClassName="navigation__tab--selected" to="/room-review"><RoomOverview/><div className="navigation__tab-text">Room review</div></NavLink>
         <NavLink className="navigation__tab" activeClassName="navigation__tab--selected" to="/challenges"><Challenge/><div className="navigation__tab-text">Challenges</div></NavLink>
-        <NavLink className="navigation__tab" activeClassName="navigation__tab--selected" to="/settings"><Settings/><div className="navigation__tab-text">Settings</div></NavLink>
+        <NavLink className="navigation__tab" to="/"><Settings/><div className="navigation__tab-text">Settings</div></NavLink>
     </div>);
 }
