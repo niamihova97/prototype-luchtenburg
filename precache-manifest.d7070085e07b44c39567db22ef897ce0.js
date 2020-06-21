@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a15cf64f8ebdcd5bc8cbce0a7a6e0d5",
+    "revision": "f8dd5ffb4a3dcc2b0a4235e476d831dd",
     "url": "/prototype-luchtenburg/index.html"
   },
   {
-    "revision": "d55b604bd7d0d6a4c3c2",
-    "url": "/prototype-luchtenburg/static/css/main.629b8818.chunk.css"
+    "revision": "ecd8a0bdc043fc30aa19",
+    "url": "/prototype-luchtenburg/static/css/main.966bc85c.chunk.css"
   },
   {
     "revision": "802ea40e20540ef19110",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/prototype-luchtenburg/static/js/6.a07a41bf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d55b604bd7d0d6a4c3c2",
-    "url": "/prototype-luchtenburg/static/js/main.1f7c60b3.chunk.js"
+    "revision": "ecd8a0bdc043fc30aa19",
+    "url": "/prototype-luchtenburg/static/js/main.4fd69b27.chunk.js"
   },
   {
     "revision": "1ec47624d66247f7e5c1",
